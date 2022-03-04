@@ -1,0 +1,24 @@
+{
+  "name": "contact-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "set NODE_ENV=production && node server.js",
+    "dev": "set DEBUG=contact:* && nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "chalk": "4.1.0",
+    "contact-db": "file:../contact-db",
+    "cors": "^2.8.5",
+    "debug": "^4.3.3",
+    "express": "^4.17.3",
+    "express-asyncify": "^1.0.1",
+    "joi": "^17.6.0",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

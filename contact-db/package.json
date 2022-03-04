@@ -1,0 +1,18 @@
+{
+  "name": "contact-db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "setup": "set DEBUG=contact:* && node setup.js"
+  },
+  "dependencies": {
+    "chalk": "4.1.0",
+    "debug": "^4.3.3",
+    "defaults": "^1.0.3",
+    "inquirer": "^8.2.0",
+    "minimist": "^1.2.5",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  }
+}
